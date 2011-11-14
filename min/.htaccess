@@ -1,0 +1,13 @@
+<IfModule mod_rewrite.c>
+RewriteEngine on
+
+# You may need RewriteBase on some servers
+#RewriteBase /min
+
+# rewrite URLs like "/min/f=..." to "/min/?f=..."
+### RewriteRule ^([bfg]=.*)  index.php?$1 [L,NE]
+RewriteRule ^([a-zA-Z0-9_]+).(.*).css index.php?g=$1_css [NC]
+RewriteRule ^([a-zA-Z0-9_]+).(.*).js index.php?g=$1_js [NC]
+
+</IfModule>
+

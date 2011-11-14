@@ -11,11 +11,11 @@
         
     <!--[if (gte IE 9)|!(IE)]><!-->
     <script src="/min/head.<?= $version ?>.js"></script>
-    <link rel="stylesheet" href="/min/main.<?= $version ?>.css" />
+    <link rel="stylesheet" href="/min/main.<?= $version ?>.css">
     <!--<![endif]-->
     <!--[if (lte IE 8)]>
     <script src="/min/head_ie.<?= $version ?>.js"></script>
-    <link rel="stylesheet" href="/min/main_ie.<?= $version ?>.css" />
+    <link rel="stylesheet" href="/min/main_ie.<?= $version ?>.css">
     <![endif]-->
 
 </head>
